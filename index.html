@@ -13,9 +13,10 @@
       rel="stylesheet"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      href="https://fonts.cdnfonts.com/css/times-new-roman"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="header.css" />
   </head>
 
   <body>
@@ -32,55 +33,117 @@
           <div class="nav-mid">
             <div class="nav-element">
               <i class="ri-home-4-line"></i>
-              <p>Home</p>
+              <a href="./home.html" target="_blank"><p>Home</p></a>
             </div>
 
             <div class="nav-element">
               <i class="ri-profile-line"></i>
-              <p>Profile</p>
+              <a href="./profile.html" target="_blank">
+                <p>Profile</p>
+              </a>
             </div>
 
             <div class="nav-element">
               <i class="ri-chat-4-line"></i>
-              <p>Message</p>
+              <a href="./message.html" target="_blank">
+                <p>Message</p>
+              </a>
             </div>
 
             <div class="nav-element">
               <i class="ri-history-line"></i>
-              <p>History</p>
+              <a href="./history.html" target="_blank">
+                <p>History</p>
+              </a>
             </div>
 
             <div class="nav-element">
               <i class="ri-task-line"></i>
-              <p>Tasks</p>
+              <a href="/task.html" target="_blank">
+                <p>Tasks</p>
+              </a>
             </div>
 
             <div class="nav-element">
               <i class="ri-team-line"></i>
-              <p>Communities</p>
+              <a href="./community.html" target="_blank">
+                <p>Communities</p>
+              </a>
             </div>
           </div>
 
           <div class="nav-bottom">
             <div class="nav-bottom-element">
               <i class="ri-settings-2-line"></i>
-              <p>Settings</p>
+              <a href="./setting.html">
+                <p>Settings</p>
+              </a>
             </div>
 
             <div class="nav-bottom-element">
               <i class="ri-question-line"></i>
-              <p>Support</p>
+              <a href="./support.html" target="_blank">
+                <p>Support</p>
+              </a>
             </div>
 
             <div class="nav-bottom-element">
               <i class="ri-git-repository-private-line"></i>
-              <p>Privacy</p>
+              <a href="./privacy.html" target="_blank">
+                <p>Privacy</p>
+              </a>
             </div>
           </div>
         </nav>
       </div>
 
-      <div class="right"></div>
+      <div class="right">
+        <div class="header">
+          <div class="header-top">
+            <div class="header-top-left">
+              <label for="search">
+                <i class="ri-search-2-line"></i>
+              </label>
+              <input type="text" name="search" id="search-bar" />
+            </div>
+
+            <div class="header-top-right">
+              <i class="ri-notification-2-line"></i>
+
+              <img src="https://picsum.photos/seed/picsum/200/300" alt="" />
+
+              <h3 class="user-name">Yogesh</h3>
+            </div>
+          </div>
+
+          <div class="header-bottom">
+            <div class="header-bottom-left">
+              <div class="logo">
+                <img src="https://picsum.photos/seed/picsum/200/300" alt="" />
+              </div>
+
+              <div class="greeting">
+                <p>Hi there,</p>
+                <h6>Morgan Oakley(@morgan)</h6>
+              </div>
+            </div>
+
+            <div class="header-bottom-right">
+              <div id="new-btn" class="header-buttons">
+                <button>New</button>
+              </div>
+
+              <div id="upload-btn" class="header-buttons">
+                <button>Upload</button>
+              </div>
+
+              <div id="share-btn" class="header-buttons">
+                <button>Share</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>

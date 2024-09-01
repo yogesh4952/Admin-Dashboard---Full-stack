@@ -1,13 +1,11 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.container{
-    height:100vh ;
-    width: 100vw;
-    border: 2px solid red;
-    display: flex;
-    font-family: "Kanit", system-ui;
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  font-family: "Times New Roman", sans-serif;
 }
