@@ -3,7 +3,7 @@
   --secondary-color: #ffffff;
 }
 .header {
-  min-height: 200px;
+  height: 200px;
   background-color: #ffffff;
   width: 100%;
   display: flex;
