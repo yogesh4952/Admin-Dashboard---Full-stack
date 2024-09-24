@@ -130,3 +130,80 @@
 .header-buttons button:active {
   color: red;
 }
+<<<<<<< HEAD
+=======
+
+@media screen and (min-width: 800px) and (max-width: 1279px) {
+  .header {
+    border: 2px solid purple;
+    height: 150px;
+    overflow: hidden;
+    display: flex;
+    border: 2px solid black;
+  }
+  .header-top {
+    height: 50%;
+    width: 100%;
+    border: 2px solid pink;
+  }
+  .header-top-left {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+  #search-bar {
+    padding: 14px;
+  }
+  .header-top-right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-top-right img {
+    width: 60px;
+  }
+  .header-top-right h3 {
+    font-size: 1.5em;
+  }
+  .header-bottom {
+    display: flex;
+    justify-content: space-between; /* Ensure equal space between elements */
+    align-items: center; /* Aligns content to the center */
+    height: 50%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .header-bottom-left,
+  .header-bottom-right {
+    height: 100%; /* Ensures both have the same height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0; /* Remove extra padding */
+    margin: 0;
+    border: none; /* Remove border to ensure heights match */
+  }
+  .header-bottom-left {
+    width: 40%;
+  }
+  .logo img {
+    width: 60px;
+    height: 60px;
+  }
+  .greeting p {
+    font-size: 0.9em;
+  }
+  .greeting h6 {
+    font-size: 1.2em;
+  }
+  .header-bottom-right {
+    width: 60%;
+  }
+  .header-buttons button {
+    font-size: 0.9em;
+  }
+}
+>>>>>>> ee9f96d (Making reponsive nav and header section)
