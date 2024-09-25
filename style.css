@@ -135,10 +135,10 @@
 .cards .card:hover .number {
   color: #fff;
 }
-.cards .card :hover .card-name {
+.cards .card:hover .card-name {
   color: #fff;
 }
-.cards .card :hover .icon-box i {
+.cards .card:hover .icon-box i {
   color: #fff;
 }
 
