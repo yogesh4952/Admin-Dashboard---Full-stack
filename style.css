@@ -129,7 +129,7 @@
   box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
 }
 
-.cards .card :hover {
+.cards .card:hover {
   background: #299b63;
 }
 .cards .card:hover .number {
