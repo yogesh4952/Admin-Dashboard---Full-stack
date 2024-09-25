@@ -1,0 +1,209 @@
+:root {
+  --primary-color: #1992d4;
+  --secondary-color: #ffffff;
+}
+.header {
+  height: 200px;
+  background-color: #ffffff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.header-top {
+  display: flex;
+  height: 70px;
+  width: 100%;
+  /* border: 1px solid red; */
+  padding: 0 20px;
+}
+.header-top-left {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  align-items: flex-end;
+  /* justify-content: space-around; */
+}
+.header-top-left label {
+  margin-left: 30px;
+  margin-right: 14px;
+  font-size: 20px;
+  /* justify-content: space-around; */
+}
+#search-bar {
+  width: 80%;
+  height: 23px;
+  outline: none;
+  background-color: #e2e8f0;
+  border: none;
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.header-top-right {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: flex-end;
+  width: 30%;
+}
+.header-top-right img {
+  height: 50px;
+
+  width: 70px;
+  border-radius: 50%;
+  /* width: 30%; */
+}
+.header-top-right i {
+  font-size: 20px;
+}
+.header-top-right h3 {
+  font-size: 25px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.header-bottom {
+  display: flex;
+  height: 140px;
+  width: 100%;
+  align-items: baseline;
+  justify-content: space-around;
+}
+.header-bottom-left {
+  width: 40%;
+  height: 100%;
+  /* border: 2px solid yellow; */
+  display: flex;
+  align-items: center;
+}
+
+.header-bottom-left p {
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.header-bottom-left h6 {
+  font-weight: 900;
+  font-size: 28px;
+}
+
+.logo {
+  margin-right: 50px;
+}
+.logo img {
+  height: 70px;
+  width: 72px;
+  border-radius: 50%;
+}
+
+.header-bottom-right {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.header-buttons {
+  /* width: 75px; */
+  margin: 20px;
+
+  /* height: ; */
+}
+.header-buttons button {
+  padding: 10px 30px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 15px;
+
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+.header-buttons button:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in;
+  cursor: pointer;
+}
+.header-buttons button:active {
+  color: red;
+}
+<<<<<<< HEAD
+=======
+
+@media screen and (min-width: 800px) and (max-width: 1279px) {
+  .header {
+    border: 2px solid purple;
+    height: 150px;
+    overflow: hidden;
+    display: flex;
+    border: 2px solid black;
+  }
+  .header-top {
+    height: 50%;
+    width: 100%;
+    border: 2px solid pink;
+  }
+  .header-top-left {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+  #search-bar {
+    padding: 14px;
+  }
+  .header-top-right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-top-right img {
+    width: 60px;
+  }
+  .header-top-right h3 {
+    font-size: 1.5em;
+  }
+  .header-bottom {
+    display: flex;
+    justify-content: space-between; /* Ensure equal space between elements */
+    align-items: center; /* Aligns content to the center */
+    height: 50%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .header-bottom-left,
+  .header-bottom-right {
+    height: 100%; /* Ensures both have the same height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0; /* Remove extra padding */
+    margin: 0;
+    border: none; /* Remove border to ensure heights match */
+  }
+  .header-bottom-left {
+    width: 40%;
+  }
+  .logo img {
+    width: 60px;
+    height: 60px;
+  }
+  .greeting p {
+    font-size: 0.9em;
+  }
+  .greeting h6 {
+    font-size: 1.2em;
+  }
+  .header-bottom-right {
+    width: 60%;
+  }
+  .header-buttons button {
+    font-size: 0.9em;
+  }
+}
+>>>>>>> ee9f96d (Making reponsive nav and header section)

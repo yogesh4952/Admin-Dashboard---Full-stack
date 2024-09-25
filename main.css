@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  background-color: #e2e8f0;
+
+  font-family: "Times New Roman", sans-serif;
+<<<<<<< HEAD
+=======
+  overflow: hidden;
+>>>>>>> ee9f96d (Making reponsive nav and header section)
+}
